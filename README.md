@@ -8,11 +8,13 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
 
         Aktivitas:
 
-        1. modified:   README.md
-        2. push file ke Github
+        1. Menginstal python
+        2. Membuat repositori di Github
+        3. modified:   README.md
+        4. push file ke Github
 
 
-#### 1.1 Pra-syarat
+#### [1.1 Pra-syarat](https://github.com/gurnitha/django-real-world-class-blog/commit/35a530d41d8113da2a43d5485b95a120c597f522)
 
         Aktivitas:
 
@@ -25,6 +27,7 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
         3. JavaScript,
         4. Python, dan
         5. Framework Django.
+        6. Memiliki keinginan yang kuat untuk bisa dan berdisiplin diri untuk mengikuti dan menyelesaikan setiap tahapan kelas ini sampai tuntas.
 
         Namun demikian, Anda tidak diwajibkan sudah menguasai semua hal di atas. Paling tidak Anda memiliki sedikit pengalaman menggunakan bahasa-bahasa di atas.
 
@@ -38,3 +41,10 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
 
         2. modified:   README.md
         3. push file ke Github
+
+
+## 2. Membuat django proyek dan app
+
+        Aktivitas:
+
+        1. modified:   README.md
