@@ -127,7 +127,7 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
         5. Modifikasi README.md file
 
 
-#### 2.3 Membuat proyek django
+#### [2.3 Membuat proyek django](https://github.com/gurnitha/django-real-world-class-blog/commit/e739b5f4bb9be956555fcf068022c84c6b153171)
         
         Aktivitas:
 
@@ -193,6 +193,33 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+
+#### 2.4 Menjalankan proyek django untuk kali pertama
+        
+        Aktivitas:
+
+        Langkah-langkah menjalankan proyek django:
+
+        1. Jalankan server lokal
+
+        Untuk menjalankan proyek django, Anda perlu melakukan hal-hal seperti di bawah ini:
+
+        1.1 Buka code editor Anda dan aktifkan venv3941.
+        
+        2.2 Setelah itu, jalankan server lokal.
+        > Perintahnya: python manage.py runserver
+
+        2.3 Buka browser Anda (saya menggunakan Chrome)
+
+        2.4 Copy file: http://127.0.0.1:8000/
+
+        2.5 Paste http://127.0.0.1:8000/ pada browser Anda.
+
+        2.6 Jika Anda melihat hal seperti gambar di bawah ini, maka Anda telah berhasil membuat proyek django.
+
+        SELAMAT!
+
 
 
 
