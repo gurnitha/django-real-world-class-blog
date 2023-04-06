@@ -86,7 +86,7 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
         7. Membuat git commit dan push file ke Github
 
 
-#### 2.2 Menginstal django
+#### [2.2 Menginstal django](https://github.com/gurnitha/django-real-world-class-blog/commit/cf0b3025111fd407e0f2ecb3e6d8f74d54c656c3)
         
         Aktivitas:
 
@@ -94,7 +94,15 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
 
         Untuk mengistal django, kita perlu mengakifkan virtualenv atau venv3941 yang telah kita buat.
 
-        > Perintahnya: venv3941\Scripts\activate
+        > Perintahnya: 
+        F:\_ingafter65\KAMU_BISA_APA\django-real-world-class-blog (main)
+        λ venv3941\Scripts\activate
+
+        NOTE:
+
+        1.1 Pastikan code editor Anda menunjukkan bahwa Anda ada dalam root direktori proyek Anda. Dalam hal ini, root direktorinya dalah 'django-real-world-class-blog'.
+
+        1.2 venv3941 ada di dalam root direktori 'django-real-world-class-blog'
 
         2. Menginstal django
 
@@ -117,6 +125,79 @@ Aplikasi ini dibangun sebagai kenangan ultah saya yg ke-65
         > Perintahnya: pip list
 
         5. Modifikasi README.md file
+
+
+#### 2.3 Membuat proyek django
+        
+        Aktivitas:
+
+        Langkah-langkah membuat proyek django:
+
+        1. Me-non-aktifkan venv3941
+
+        Sebagai latihan, saya akan mendemokan cara me-non-aktifkan venv3941.
+
+        Perintahnya:
+
+        F:\_ingafter65\KAMU_BISA_APA\django-real-world-class-blog (main)
+        (venv3941) λ deactivate
+
+        Kemudian akan menjadi seperti ini:
+        F:\_ingafter65\KAMU_BISA_APA\django-real-world-class-blog (main)
+
+        2. Memastikan venv3941 sedang aktif. Kalau venv3941 sedang tidak aktif, maka Anda harus mengaktifkannya terlebih dahulu sebelum membuat proyek django.
+
+        > Perintahnya: 
+        F:\_ingafter65\KAMU_BISA_APA\django-real-world-class-blog (main)
+        λ venv3941\Scripts\activate
+
+        Setelah itu, maka akan terlihat seperti ini pada code editor Anda:
+
+        F:\_ingafter65\KAMU_BISA_APA\django-real-world-class-blog (main)
+        (venv3941) λ
+
+        NOTE: Jika pada code editor Anda terlihat hal seperti di bawah ini, maka hal itu menandai bahwa venv3941 sedang aktif.
+
+        (venv3941) λ
+
+        Jika tidak terlihat seperti itu, maka:
+
+        2.1 Pastikan code editor Anda menunjukkan bahwa Anda ada dalam root direktori proyek Anda. Dalam hal ini, root direktorinya dalah 'django-real-world-class-blog'.
+
+        2.2 venv3941 ada di dalam root direktori 'django-real-world-class-blog'
+
+        3. Mencari perintah untuk membuat proyek django
+
+        Agar bisa membuat proyek, maka hal pertama yang harus kita ketahui adalah perintah untuk membuat proyek itu. Perintah itu tersembunyi di dalam venv3941 yang kita buat. Untuk mengeluarkannya, kita perlu menggukan perintah seperti di bawah ini:
+
+        > Perintahnya: django-admin
+
+        4. Membuat proyek django
+
+        Sekarang kita sudah tahu perintah untuk membuat proyek django, yakni seperti ini di bawah ini:
+
+        > Perintahnya: django-admin startproject config .
+
+        Dengan menggunakan perintah itu, maka proyek django dengan nama 'config' dapat di buat.
+
+        Perhatikan tanda (.) atau titik setelah kata config. Titik (.) itu menandai bahwa proyek dengan nama config itu diletakkan di dalam root direktori atau di dalam folder'django-real-world-class-blog'.
+
+        Lihatlah gambar dibawah ini.
+
+        5. File yang ada di dalam proyek django 'config'
+
+        modified:   README.md
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
+
+
+
+
+
 
 
 
